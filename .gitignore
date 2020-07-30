@@ -1,0 +1,24 @@
+# see https://github.com/github/gitignore for more specific ignore options
+
+/node_modules
+package-lock.json
+*.sh
+
+# dotenv environment variables file
+.env
+.env.test
+
+# Logs
+logs
+*.log
+
+# IDE
+.idea
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# OS specific
+.DS_Store

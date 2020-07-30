@@ -1,0 +1,19 @@
+{
+  "name": "d7-updater",
+  "version": "1.0.0",
+  "description": "automate updating drupal 7 core",
+  "bin": {
+    "d7-update": "core-update.js",
+    "d7-upload": "core-upload.js"
+  },
+  "scripts": {
+    "update": "node ./core-update.js",
+    "upload": "node ./core-upload.js"
+  },
+  "author": "Lukas Ehnle<lukas@ehnle.dev>",
+  "license": "MIT",
+  "dependencies": {
+    "basic-ftp": "^4.6.2",
+    "sade": "^1.7.3"
+  }
+}
