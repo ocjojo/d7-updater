@@ -14,6 +14,11 @@ npm i -g ocjojo/d7-updater
 ## Usage
 
 ```bash
+# Help texts
+d7-update -h
+d7-upload -h
+
+# Example
 # Download and extract new source
 d7-update ~/dev/project1/ . # assumes current dir is the new drupal7 source
 
